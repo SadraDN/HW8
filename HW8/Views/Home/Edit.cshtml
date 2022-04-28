@@ -1,0 +1,20 @@
+﻿@model Person
+<h2 class="mb-5">
+ویرایش @Model.Name
+</h2>
+
+<form asp-controller="Home" asp-action="Edit" method="post">
+    <div class="mb-3">
+        <label class="form-label" asp-for="Id"></label>
+        <input class="form-control" asp-for="Id" readonly/>
+    </div>
+    <div class="mb-3">
+        <label  class="form-label" asp-for="Name"></label>
+        <input  class="form-control" asp-for="Name"/>
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-success" value="دخیره اطلاعات">
+        <a class="btn btn-light"
+           asp-controller="Home" asp-action="Index" >بازگشت به لیست</a>
+    </div>
+</form>
