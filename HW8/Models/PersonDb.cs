@@ -44,7 +44,7 @@
             return _persons.Remove(per);
         }
 
-        public void UpdatePerson(Person model)
+        public static void UpdatePerson(Person model)
         {
             var person = GetById(model.Id);
             person.Name = model.Name;

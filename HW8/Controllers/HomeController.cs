@@ -48,11 +48,11 @@ namespace HW8.Controllers
             return View(persons);
         }
         [HttpPost]
-        //public IActionResult Edit(Person model)
-        //{
-        //    PersonDb.UpdatePerson(model);
-        //    return RedirectToAction("Index");
-        //}
+        public IActionResult Edit(Person model)
+        {
+            PersonDb.UpdatePerson(model);
+            return RedirectToAction("Index");
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

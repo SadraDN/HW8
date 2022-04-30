@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sadra\\Desktop\\maktab\\codes\\HW8\\HW8\\HW8.csproj": {}
+    "C:\\Users\\Sadra\\Desktop\\maktab\\HW8\\HW8\\HW8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sadra\\Desktop\\maktab\\codes\\HW8\\HW8\\HW8.csproj": {
+    "C:\\Users\\Sadra\\Desktop\\maktab\\HW8\\HW8\\HW8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sadra\\Desktop\\maktab\\codes\\HW8\\HW8\\HW8.csproj",
+        "projectUniqueName": "C:\\Users\\Sadra\\Desktop\\maktab\\HW8\\HW8\\HW8.csproj",
         "projectName": "HW8",
-        "projectPath": "C:\\Users\\Sadra\\Desktop\\maktab\\codes\\HW8\\HW8\\HW8.csproj",
+        "projectPath": "C:\\Users\\Sadra\\Desktop\\maktab\\HW8\\HW8\\HW8.csproj",
         "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sadra\\Desktop\\maktab\\codes\\HW8\\HW8\\obj\\",
+        "outputPath": "C:\\Users\\Sadra\\Desktop\\maktab\\HW8\\HW8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
